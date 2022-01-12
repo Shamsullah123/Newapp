@@ -1,13 +1,11 @@
 import { props } from "bluebird";
 import React from "react";
 
-const person = (props) => {
+const person = () => {
   return (
     <div>
-      <h1>
-        My Name is {props.name} and I am {props.age} year old !
-      </h1>
-      <p>{props.children}</p>
+      <h1>My Name is and I am year old !</h1>
+      <p></p>
     </div>
   );
 };
